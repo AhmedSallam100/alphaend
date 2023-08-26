@@ -25,7 +25,7 @@ const Contact = () => {
   const [emailError, setEmailError] = useState();
   const [msgError, setMsgError] = useState();
   const [btnLoading, setBtnLoading] = useState(false);
-  const [send, setSend] = useState();
+  const [send, setSend] = useState("tst");
 
   useEffect(() => {
     // Validation
